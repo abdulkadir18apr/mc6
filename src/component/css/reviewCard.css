@@ -1,0 +1,32 @@
+.reviewCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem;
+    border-bottom: 2px solid gray;
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.user{
+    display: flex;
+    gap:8px;
+}
+.user img{
+    width:2rem;
+    border-radius: 50%;
+}
+.rating{
+    background-color: green;
+    color: yellow;
+    padding:3px;
+    display: flex;
+    align-items: center;
+    gap:3px;
+}
+.crossIcon{
+    font-size: larger;
+    cursor: pointer;
+}

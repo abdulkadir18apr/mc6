@@ -1,0 +1,38 @@
+.reviewModal{
+    position: absolute;
+    border-radius: 20px;
+    background-color: #EF4F5F;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+   width:30%;
+   padding: 3rem 2rem;
+}
+.reviewModal h1{
+    border-bottom: 2px solid white;
+    font-size: 25px;
+    font-weight: 800;
+}
+.feild{
+   
+    display: flex;
+    justify-content: space-between;
+}
+.feild select{
+    width: 50%;
+    color: black;
+}
+.feild input{
+    width:50%;
+    color: black;
+}
+.feild button{
+    background-color:darkgray;
+    padding:10px;
+    cursor: pointer;
+    color:white;
+    border-radius: 8px;
+
+}
